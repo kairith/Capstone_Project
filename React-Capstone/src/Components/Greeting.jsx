@@ -1,7 +1,11 @@
 import React from "react";
-
+const myStyle = {
+    color: "green",
+    fontSize: "50px",
+    fontWeight: "bold"
+}
 function Greeting() {
-    return <h1>Hello</h1>
+    return <h1 style={myStyle}>Hello</h1>
  }
 
  export default Greeting;
