@@ -1,11 +1,11 @@
 import React from "react";
-const myStyle = {
-    color: "green",
-    fontSize: "50px",
-    fontWeight: "bold"
-}
+import "../Css/Greeting.css"
 function Greeting() {
-    return <h1 style={myStyle}>Hello</h1>
+    return <>
+    <div className="RegGreeting">
+        <h1 className="Greeting">Hello</h1>
+    </div>
+    </>
  }
 
  export default Greeting;
