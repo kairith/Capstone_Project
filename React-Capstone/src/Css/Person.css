@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .Person{
     color: red;
     font-size: 50px;
