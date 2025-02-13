@@ -21,7 +21,7 @@ app.use('/api/chatbot', chatBotRoutes);
 app.use("/api/educational", educationalRoutes);
 
 
-const PORT = process.env.PORT || 5010;
+const PORT = process.env.PORT || 5020;
 
 // ✅ Start Server
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
