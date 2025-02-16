@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "Niradei-Regular";
+    src: url("../assets/Fonts/Niradei-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Niradei-Bold";
+    src: url("../assets/Fonts/Niradei-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font-regular {
+    font-family: "Niradei", 'sans-serif;'
+}
+
+.font-bold {
+    font-family: "Niradei-Bold", 'sans-serif';
+}
